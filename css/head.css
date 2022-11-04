@@ -9,28 +9,38 @@
     flex-direction: column;
     align-items: center;
 
-    padding-top: .75rem;
-    padding-bottom: .75rem;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
 
-    border-bottom: 1px solid var(--border-cabecera-mobile);
-
+    border-bottom: 3px solid var(--border-cabecera-mobile);
+    background-color: var(--background-negro);
+  
     position: absolute;
 }
 
 .head__logo {
     margin-bottom: 1rem;
+    position: absolute;
+    width: 210px;
+    height: 120px;
+    left: 10px;
+    top: 10px;
 }
 
 .head__navegacion {
     text-align: center;
+    padding-left: 370px;
 }
 
 .head__enlace {
     font-size: 1.1rem;
 
     display: inline-block;
-
     margin-right: .7rem;
     margin-bottom: .7rem;
     margin-left: .7rem;
+}
+
+.head__enlace:hover{
+    color: #7057a2;
 }

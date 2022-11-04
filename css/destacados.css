@@ -1,18 +1,26 @@
 .destacados {
     background-color: var(--background-azul-claro);
-    padding-top: 2.5rem;
-    padding-bottom: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    
 }
 
 .destacados__titulo {
     font-family: var(--montserrat);
+    position: absolute;
+    text-align: center;
+    width: 180px;
+    left: 447px;
+    top: 500px;
+    margin-top: 2rem;
+    text-transform: uppercase;
 }
 
 .destacados__panel {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .destacados__panel-imagen {
@@ -23,11 +31,20 @@
 }
 
 .destacados__panel-texto {
-
+   
+   height: 60px;
+   margin-top: 2rem; 
+   font-size: 25px;
 }
 
 .destacados__boton {
     color: var(--boton-rojo);
     border-color: var(--boton-rojo);
     margin: 0 auto;
+}
+
+.destacados__boton:hover{
+    color: var(--border-blanco);
+    background-color: var(--border-cabecera-mobile);
+
 }
