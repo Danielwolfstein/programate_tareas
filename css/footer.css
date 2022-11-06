@@ -5,12 +5,13 @@
 
     background-color: var(--background-footer);
 
-    padding-top: 2.5rem;
+    padding-top: 6rem;
     padding-bottom: 2rem;
 }
 
 .footer__social {
     display: flex;
+    padding-left: 670px;
 }
 
 .footer__midia {
@@ -26,12 +27,22 @@
     color: var(--background-blanco);
     font: var(--open-sans);
     text-align: center;
-    line-height: 3;
+    line-height: 5;
+    padding-right: 450px;
+    display: flex;
 }
 
 
 .footer__enlace {
     display: inline-block;
-
-    margin: 0 .5rem .7rem;
+    margin: 0 .7rem .7rem;
+}
+.footer__logo{
+    position: absolute;
+    width: 190px;
+    height: 145px;
+    left: 200px;
+    top: 3850px;
+    padding-right: 500px;
+    display: flex;
 }

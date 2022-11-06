@@ -5,8 +5,8 @@
 
     /* text-align:  */
 
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.25rem;
+    padding-bottom: 8rem;
 }
 
 .contacto__titulo {
@@ -25,5 +25,9 @@
 
     border-color: var(--boton-rojo);
 
-    margin-top: 1.25rem;
+    margin-top: 1.7rem;
+}
+.contacto__boton:hover{
+    background-color: var(--boton-rojo);
+    color: #FFFF;
 }

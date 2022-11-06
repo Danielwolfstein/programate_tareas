@@ -1,16 +1,20 @@
 .planes {
     background-color: var(--background-ceniza-claro);
-    
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 30rem;
+    padding-bottom: 10rem;
 }
 
 .planes__titulo {
     color: var(--fuente-ceniza-oscuro);
     font-size: 1.5rem;
     font-family: var(--montserrat);
-
     margin-bottom: 1.25rem;
+    text-align: center;
+    position: absolute;
+    width: 102px;
+    height: 24px;
+    left: 460px;
+    top: 2680px;
 }
 
 .planes__tarjetas {
@@ -77,20 +81,65 @@
 }
 
 .tarjetas--start {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 42px;
+    top: 2780px;
 }
 
 .tarjetas--ultra {
+    
+    position: absolute;
+    width: 350px;
+    height: 375px;
+    left: 362px;
+    top: 2770px;
+  
 }
 
+
 .tarjetas--mega {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 682px;
+    top: 2780px;
 }
 
 .tarjetas__boton--start {
+    color: var( --planes-card-start);
+    border-color: var( --planes-card-start);
+}
+.titulo--start{
+    color: var( --planes-card-start)
 }
 
 .tarjetas__boton--ultra {
+    border-color: var( --planes-card-ultra);
+    color: var(--planes-card-ultra);
+}
+
+.titulo--ultra {
+    color: var(--planes-card-ultra)
 }
 
 .tarjetas__boton--mega {
-    border-color: var(--planes-card-mega);
+    color: var(--planes-card-mega);
+    border-color: var( --planes-card-mega);
+}
+.titulo--mega{
+    color: var( --planes-card-mega)
+}
+.tarjetas__boton--start:hover{
+    background-color: var( --planes-card-start);
+    color: #ffffff;
+}
+.tarjetas__boton--ultra:hover{
+    background-color: var( --planes-card-ultra);
+    color: #ffffff;
+}
+.tarjetas__boton--mega:hover{
+    background-color: var( --planes-card-mega);
+    color: #ffffff;
 }
